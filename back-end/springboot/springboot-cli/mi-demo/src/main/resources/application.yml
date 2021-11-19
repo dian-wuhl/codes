@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: mi-demo
+  profiles:
+    active: dev

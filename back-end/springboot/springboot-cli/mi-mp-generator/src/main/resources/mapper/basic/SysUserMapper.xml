@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.mi.modules.basic.mapper.SysUserMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.mi.modules.basic.model.SysUser">
+        <id column="id" property="id" />
+        <result column="created_by" property="createdBy" />
+        <result column="created_on" property="createdOn" />
+        <result column="updated_by" property="updatedBy" />
+        <result column="updated_on" property="updatedOn" />
+        <result column="enabled" property="enabled" />
+        <result column="update_count" property="updateCount" />
+        <result column="user_code" property="userCode" />
+        <result column="user_pwd" property="userPwd" />
+        <result column="name" property="name" />
+        <result column="gender" property="gender" />
+        <result column="phone_number" property="phoneNumber" />
+        <result column="fixed_telephone" property="fixedTelephone" />
+        <result column="city" property="city" />
+        <result column="department" property="department" />
+        <result column="birthday" property="birthday" />
+        <result column="user_avatar" property="userAvatar" />
+    </resultMap>
+
+</mapper>
